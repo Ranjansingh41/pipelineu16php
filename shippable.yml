@@ -17,5 +17,7 @@ build:
   ci:
    - php --version
    - composer --version
-   - shipctl start mysql
-   - shipctl start redis
+   - shippable_service mysql start
+   - shippable_service mysql stop
+   - shippable_service redis start
+   - shippable_service redis stop
