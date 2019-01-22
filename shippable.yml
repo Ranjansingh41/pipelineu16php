@@ -17,4 +17,5 @@ build:
   ci:
    - php --version
    - composer --version
-   - php -i
+   - php -i | grep -i gd
+
