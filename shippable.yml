@@ -17,5 +17,5 @@ build:
   ci:
    - php --version
    - composer --version
-   - php -i | grep -i gd
-
+   - php --rf ldap_connect
+   - php --rf imagettftext
