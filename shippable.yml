@@ -11,11 +11,11 @@ php:
 services:
   - mysql  
 
-build:
-  pre_ci_boot:
-    image_name: drydock/u16phpall
-    image_tag: v6.12.4
-    pull: true
+#build:
+ # pre_ci_boot:
+  #  image_name: drydock/u16phpall
+   # image_tag: v6.12.4
+    #pull: true
     
   ci:
    - php --version
